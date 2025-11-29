@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Yeongwol';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2507-2@1.0/YeongwolTTF-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Lt.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'BookkMyungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2302@1.0/BookkMyungjo-Bd.woff2') format('woff2');
+    font-weight: 700;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'SchoolSafetyPoster';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2511-1@1.0/HakgyoansimPosterB.woff2') format('woff2');
+    font-weight: normal;
+    font-display: swap;
+}
+
+
+body {
+    background-color: #1a1a1a;
+    margin: 0;
+}
+
+h1 {
+    color: whitesmoke;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Yeongwol', sans-serif;
+    margin-bottom: 100px;
+    
+}
+
+p {
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: left;
+    font-family: 'BookkMyungjo', serif;
+    margin-left: 100px;
+}
+
+.word01 {
+    font-family: schoolSafetyPoster, sans-serif; 
+    font-size: 70px;
+    marjin-bottom: 20px;
+}
+.word02 {
+    font-weight: 700; 
+    font-size: 22px;
+}
